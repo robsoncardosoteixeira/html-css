@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Baixa Externamente</title>
+
+    <style>
+        
+        @font-face {
+            font-family: 'meladu';
+            src: url('fontes/MELADU ROSE.otf') format('opentype');
+            font-weight: normal;
+            font-style: italic;
+        
+        }
+        
+        @font-face {
+            font-family: 'decision';
+            src: url('fontes/Decision Making.otf') format('opentype'), url('fontes/Decision\ Making.ttf') format('truetype');
+        }
+            /*Tipos de Format ()
+                -opentype (otf)
+                -truetype (ttf)
+                -embedded-opentype
+                -truetype-aat (Apple Advanced Typography)
+                -svg
+            */
+        h1 {
+            font-family: 'decision', 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-family: 'meladu', 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes baixadas e colocadas na pasta local</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quae labore reprehenderit consectetur deserunt architecto laboriosam, illum accusamus amet in inventore, debitis harum provident. Veritatis asperiores tempora quibusdam quae dolor.</p>
+</body>
+</html>

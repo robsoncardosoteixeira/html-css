@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*
+diferença entre ID e CLASS
+na HTML ID é representado por # nas CSS
+na HTML CLASS é representado por . (ponto) nas CSS
+    diferenças:
+        ID - só pode ter um ID no documento
+        CLASS - o resto colocamos como class
+*/
+
+body {
+    background-color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(129, 141, 116);
+    
+    
+}
+
+#principal {
+    color: blueviolet;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: fantasy;
+    background-color: bisque;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+p {
+    text-indent: 40px;
+   
+}
+
+.basico {
+    background-color: crimson;
+    text-align: center;
+}
+
+.intermediario {
+    background-color: blue;
+    color: #dddddd;
+    text-align: center;
+}
+
+.avancado {
+    background-color: beige;
+    text-align: center;
+}
+
+.novo {
+    text-decoration: underline;
+}

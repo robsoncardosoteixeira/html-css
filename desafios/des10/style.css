@@ -1,0 +1,153 @@
+
+
+/* meu codigo css
+
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #32B16A);
+    margin-top: -20px;
+    padding-top: 20px;
+}
+@font-face {
+    font-family: 'quadrada';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+nav > a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav > a:hover {
+    background-color: #2FA866;
+    border-radius: 5px;   
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white;
+    width: 800px;
+    padding: 5px 15px;
+    margin: -10px auto 0px auto;    
+}
+main > h1 {
+    font-family: 'quadrada';
+    color: #42795B;
+}
+main > h2 {
+    font-family: 'quadrada';
+    background-image: linear-gradient(to right, #C8ECD8, #DCF3E6, #F4FBF8);
+    color: #42795B;
+    padding: 5px;
+}
+main > p {
+    
+    text-indent: 40px;
+    
+    
+}
+section {
+
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 820px;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    
+}
+article {
+    background-color: #C5EBD6;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0px;
+    margin: -15px 15px 15px 15px;
+    
+}
+.android-humano {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    display: block;
+    margin: 10px -15px 0px -15px;
+    padding-bottom: px;
+    width: 770px;
+    border: 30px solid #063D1E;
+}
+
+li {
+    list-style: none;
+    
+}
+.teste::before {
+    content: '✔';
+    
+}
+article > h3 {
+    color: white;
+    background-color: #2FA866;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;    
+}
+article > p {
+
+    text-indent: 40px;
+    padding: 5px;
+}
+
+
+aside > p {
+    text-indent: 40px;
+    padding: 5px;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+    
+}
+main > a {
+    background-color: #83E1AD;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+
+
+

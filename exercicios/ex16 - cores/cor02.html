@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * { /*configuração global das CSS*/
+            height: 100%; /*altura, ex. se eu colocar 50%, divide a pagina em 2 imagens iguais*/
+        }
+        body {
+            /*uma so cor na pagina
+            background-color: rgb(128, 128, 229);*/
+
+            /*
+            background-image: linear-gradient(to bottom,white,blue);
+            */
+            background-image: radial-gradient(circle, red 5%, yellow, orange, green, black 75%); /*coloquei a porcentagem para indicar que a cor preta vai usar 30% da imagem*/
+        }
+        h1 {
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
