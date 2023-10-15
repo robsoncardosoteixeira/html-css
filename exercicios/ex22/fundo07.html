@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical de Caixas</title>
+    <style>
+        #container {
+            background-color: blueviolet;
+            height: 96vh;
+           
+            padding: 10px;
+            /*background-image: url('imagens/target001.png');*/
+            position: relative; /*por padrao, o container já tem posição relativa, todo box ja tem esse padrão, não precisa colocar, mas por semantica é bom*/
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+        }
+
+        #content {
+            background-color: yellow;
+            height: 200px;
+            width: 400px;
+            /*margin: auto;
+            margin-top: 50%;
+            aqui eu alinho horizontalmente*/
+            position: absolute; /*termite configurar posição*/
+            left: 50%;
+            top: 50%;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            /*desta forma, o conteudo esta centralizado, porem ele pega por base o lef - top, para ajustar o centro
+            Para mudar isso usamos um comando "TRANSFORM*/
+
+            transform: translate(-50%, -50%); /*posso mexer em px da mesma forma*/
+
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="content">
+
+        </article>
+    </section>
+</body>
+</html>
