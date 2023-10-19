@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: gray;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .nome {
+            background-color: aqua;
+        }
+        .grupo {
+            background-color: cadetblue;
+            
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="grupo" span="2">
+                <!--<col class="idade">-->
+                <col class="prof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+
+            <tr>
+                <td>Robson</td>
+                <td>Masculino</td>
+                <td>38</td>
+                <td>Desenvolvedor Web</td>
+            </tr>
+            <tr>
+                <td>Robson</td>
+                <td>Masculino</td>
+                <td>38</td>
+                <td>Desenvolvedor Web</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>38</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>38</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>38</td>
+                <td>Médica</td>
+            </tr>
+
+        </table>
+</body>
+</html>
